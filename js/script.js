@@ -3,8 +3,6 @@ $(document).ready(function(){
 });
 
 getAppointmentsFor = function(calendarID, APIKey){
-	// calendarID = calendarID || "sainathstest@gmail.com";
-	// APIKey = APIKey || "AIzaSyCsnhJeFit43UIwiDlH78El6t7tLoU5Nmk";
 	calendarID = calendarID || "testprodigy.currentuser@gmail.com";
 	APIKey = APIKey || "AIzaSyC6e2acOMY5pt9cp3T4he5zLCBwpF15cZE";
 	$.ajax({
